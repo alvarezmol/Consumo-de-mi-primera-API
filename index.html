@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos aleatorios</title>
+</head>
+<style>
+
+    body{
+        display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 400px;
+    }
+  .boton_gato{
+    height: 50px;
+    width: 100px;
+  }
+
+  .foto_gatos{
+    height: 200px;
+    width: 200px;
+    border-radius: 18px;
+    object-fit: cover;
+  }
+
+
+</style>
+<body>
+   <h1>Gatos aleatorios</h1>
+   <button class="boton_gato" type="button" onclick="getNewCat()">
+    Nuevo gato
+</button>
+   <img class="foto_gatos" alt="Foto Gatos">
+   <script src="./main.js"></script>
+</body>
+</html>
