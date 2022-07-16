@@ -31,12 +31,36 @@
 </style>
 <body>
    <h1>Gatos aleatorios</h1>
+   <span id="error"></span>
+   
    <button class="boton_gato" type="button" onclick="getNewCat()">
     Nuevo gato
 </button>
     <img id="foto_gatos1" alt="Foto Gatos1"></img>
+    <button id="btn1" class="boton_gato" type="button" >
+      Guardar en favoritos
+     </button>
    <img id="foto_gatos2" alt="Foto Gatos2"></img>
+   <button id="btn2" class="boton_gato" type="button" >
+    Guardar en favoritos
+   </button>
    <img id="foto_gatos3" alt="Foto Gatos3"></img>
+   <button id="btn3" class="boton_gato" type="button" >
+    Guardar en favoritos
+   </button>
+
+
+   <section id="fav_cats">
+    <h2>Gatos favoritos</h2>
+    <article>
+    <img class="foto_gatos_fav" alt="Foto Gatos">
+    <button class="boton_gato" type="button" >
+      Sacar de favoritos
+     </button>
+     </article>
+  </section>
+
+
    <script src="./main.js"></script>
 </body>
 </html>
