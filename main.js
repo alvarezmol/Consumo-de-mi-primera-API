@@ -54,7 +54,7 @@ async function getFavCat() {
 }
 
 async function saveFavCat(id){
-    const res = await fetch(API_fav, {
+    const res = await fetch(URL_fav, {
     method: "POST",
     headers: {
                 "Content-Type":"application/json",
